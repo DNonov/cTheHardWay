@@ -175,7 +175,7 @@ int main(int argc, char *argv[]) {
   int id = 0;
 
   if (argc > 3) id = atoi(argv[3]);
-  if (id >+ MAX_ROWS) die("There's not that many records.");
+  if (id >= MAX_ROWS) die("There's not that many records.");
 
   switch (action) {
     case 'c':
